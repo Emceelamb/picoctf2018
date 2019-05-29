@@ -1,0 +1,4 @@
+#!/bin/bash
+
+FLAG=curl -s https://picoctf.com/resourcecs | grep -oE "picoCTF{.*}"
+echo $FLAG;

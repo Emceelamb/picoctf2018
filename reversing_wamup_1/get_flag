@@ -1,0 +1,3 @@
+#!/bin/bash
+
+strings ./run | grep -oE "picoCTF{.*}"

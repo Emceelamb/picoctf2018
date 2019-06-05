@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep -aoE "picoCTF{.*}" data.pcap

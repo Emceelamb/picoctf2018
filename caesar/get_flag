@@ -1,0 +1,7 @@
+#!/bin/bash
+
+beginFlag="picoCTF"
+
+flag=(grep -o -e "{[^}]*}" ciphertext | caesar)
+
+echo "$beginFlag$flag"

